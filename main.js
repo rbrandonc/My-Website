@@ -1,4 +1,4 @@
-var numpoints = 50;
+var numpoints = 150;
 var radius = 1;
 var pointcolor = '#666';
 var proximity = 200;
