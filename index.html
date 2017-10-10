@@ -1,21 +1,93 @@
 <!DOCTYPE html>
 <html>
+<title>Brandon Clark</title>
   <head>
+    <link rel='stylesheet' href='main.css' />
     <script src='main.js'></script>
   </head>
 
-  <style>
-
-
-  body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    overflow-y: hidden;
-  }
-  </style>
-
   <body>
+    <div id='header'>
+      <ul>
+        <li>
+          Code Portfolio
+        </li>
+
+        <li>
+          Art Portfolio
+        </li>
+
+        <li>
+          About Me
+        </li>
+      </ul>
+    </div>
     <canvas id='canvas'></canvas>
+
+    <div id='overlay'>
+      <span>Brandon Clark</span>
+      <hr />
+      <span id='titles'>Developer Artist</span>
+      <span id='ps'>p.s. try clicking the background</span>
+    </div>
+
+
+    <div class='row'>
+      <div class='col-2  primary'>
+        <div class='row'>
+          <div class='col-6'>
+            <div id='circle'>
+
+            </div>
+          </div>
+        </div>
+        <div class='row'>
+          <div class='col-6'>
+            <h1>Hi, I'm Brandon.</h1>
+            <span class='white'>
+              I am a fourth year student at UNC Chapel Hill getting my B.S. in
+              Computer Science.
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class='col-4 secondary start'>
+        <div class='row'>
+          <div class='col-2 start'>
+             <ul>
+                <h2>Skills</h2>
+                <li>JavaScript/TS</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>Ionic</li>
+                <li>Node.js</li>
+                <li>Angular2</li>
+                <li>React</li>
+                <li>Python</li>
+                <li>Java</li>
+                <li>C</li>
+            </ul>
+          </div>
+
+          <div class='col-2 start'>
+            <ul>
+              <h2>Tools</h2>
+              <li>Git</li>
+              <li>Command Line/Bash</li>
+              <li>Chrome DevTools</li>
+              <li>Postman</li>
+              <li>Photoshop</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class='row' id='projects'>
+      <div class='col-6'>
+        My Projects
+      </div>
+    </div>
   </body>
 </html>
