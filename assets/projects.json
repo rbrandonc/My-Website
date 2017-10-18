@@ -1,0 +1,29 @@
+[{
+  "name": "GymNOW",
+  "description": "An app I helped develop during the summer of 2017. It lets users search for gyms that offer single day passes, and a variety of other offers.",
+  "images": {
+    "mobile": ["GymNOW1", "GymNOW2"],
+    "desktop": []
+  },
+  "play": "https://play.google.com/store/apps/details?id=com.gymnowapp.gymnowapp&hl=en",
+  "apple": "https://itunes.apple.com/us/app/gymnow/id1181595309?mt=8"
+},
+{
+  "name": "Calcuweightor",
+  "description": "A simple Ionic/Angular app for calculating weight when you have mixed standard weights in the gym.",
+  "images": {
+    "mobile": ["Calcuweightor1", "Calcuweightor2"],
+    "desktop": []
+  },
+  "source": "https://github.com/rbrandonc/calcuweightor",
+  "play": "https://play.google.com/store/apps/details?id=io.bcsoft.calcuweightor&hl=en"
+},
+{
+  "name": "Stop The Outbreak",
+  "description": "A game for and exhibit in the Moorehead Planetarium, it is a simulation style game intended to educate public about the difficulty of squelching Malaria outbreaks.",
+  "images": {
+    "mobile": [],
+    "desktop": []
+  },
+  "source": "https://github.com/rbrandonc/COMP550-STO"
+}]
