@@ -7,27 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
-  projects = [{
-    name: 'GymNOW',
-    description: 'An app I helped develop during the summer of 2017. It lets users search for gyms that offer single day passes, and a variety of other offers.',
-    images: {
-      mobile: ['GymNOW1', 'GymNOW2'],
-      desktop: []
-    },
-    play: 'https://play.google.com/store/apps/details?id=com.gymnowapp.gymnowapp&hl=en',
-    apple: 'https://itunes.apple.com/us/app/gymnow/id1181595309?mt=8'
-  },
-  {
-    name: 'Calcuweightor',
-    description: 'This is another test description.',
-    images: {
-      mobile: ['Calcuweightor1', 'Calcuweightor2'],
-      desktop: []
-    },
-    source: 'https://github.com/rbrandonc/calcuweightor',
-    play: 'https://play.google.com/store/apps/details?id=io.bcsoft.calcuweightor&hl=en'
-  }]
-
+  projects = require('../assets/projects.json');
   colors = ['#F44336', '#E91E63', '#9C27B0', '#673AB7', '#3F51B5', '#2196F3',
   '#03A9F4', '#00BCD4', '#009688', '#4CAF50', '#8BC34A', '#CDDC39',
   '#FFEB3B', '#FFC107', '#FF9800', '#FF5722', '#795548'];
@@ -43,6 +23,7 @@ var speed = .5;
 var maxradius = 6.0;
 var w = 0;
 var h = 0;
+declare var require: any
 
 var rcolor = () => {
   var r = parseInt('' + Math.random() * 255);

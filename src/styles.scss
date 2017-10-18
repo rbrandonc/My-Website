@@ -33,6 +33,10 @@ body {
   box-shadow: 0 -3px 6px rgba(0,0,0,0.16), 0 -3px 6px rgba(0,0,0,0.23);
 }
 
+.project-row {
+  flex-wrap: wrap;
+}
+
 #canvas {
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   z-index: 5;
