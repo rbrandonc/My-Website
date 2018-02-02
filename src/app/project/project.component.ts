@@ -3,8 +3,7 @@ import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'project',
-  templateUrl: './project.html',
-  styleUrls: ['./app.component.scss']
+  templateUrl: './project.component.html',
 })
 
 export class Project {

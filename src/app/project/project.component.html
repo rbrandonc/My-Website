@@ -1,0 +1,50 @@
+<div class='tile is-ancestor'>
+  <!-- About -->
+  <div class='tile is-vertical is-parent is-6' style='padding: 40px'>
+    <div class='tile is-child'>
+      <p class='title'>{{ project.name }}</p>
+      <p class='subtitle' >{{ project.description }}</p>
+    </div>
+
+    <div class='tile is-child'>
+      <span class="tag" *ngFor='let tag of project.tags'>
+        {{ tag }}
+      </span>
+    </div>
+
+    <div class='tile is-child'>
+      <div class='columns is-multiline is-mobile'>
+        <div class='column is-4' *ngIf='project.source'>
+          <a href='{{project.source}}' ><img src='./assets/Source.svg'></a>
+        </div>
+        <div class='column is-4' *ngIf='project.apple'>
+          <a href='{{project.play}}' ><img src='./assets/App Store.png'></a>
+        </div>
+        <div class='column is-4' *ngIf='project.play'>
+          <a href='{{project.play}}' ><img src='./assets/Google Play.png'></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Image -->
+  <div class='tile is-parent'>
+    <div class='tile is-child image'>
+      <img class='mobile-project-image' src='../assets/Project Images/{{project.name}}.png' alt='no project image yet :('/>
+    </div>
+</div>
+
+<!-- Project Image -->
+  <!-- <div class='column round-top-left round-bottom-left' [style.backgroundColor] = "'' + bgcolor()">
+    
+
+
+        <div class='columns'>
+         
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+ -->

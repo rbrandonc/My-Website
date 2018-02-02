@@ -1,0 +1,15 @@
+<div class='section notification is-dark'>
+	<div class='title'>My Work</div>
+
+	<div class='tile is-ancestor'>
+		<div class='tile is-parent is-vertical is-paddingless'>
+			<ng-container *ngFor='let p of projects; let i = index'>
+		      	<div class='tile is-child box is-paddingless'>
+	  				<project
+	  				  [project]='p'
+	  				  [color] = 'colors[i]'></project>
+	  			</div>
+			</ng-container>
+		</div>
+	</div>
+</div>

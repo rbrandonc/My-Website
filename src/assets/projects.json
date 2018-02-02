@@ -1,6 +1,7 @@
 [{
   "name": "GymNOW",
   "description": "An app I helped develop during the summer of 2017. It lets users search for gyms that offer single day passes, and a variety of other offers.",
+  "tags": ["Angular2", "Ionic", "Typescript", "Java", "Jersey", "PostgreSQL"],
   "images": {
     "mobile": ["GymNOW1", "GymNOW2"],
     "desktop": []
@@ -11,6 +12,7 @@
 {
   "name": "Calcuweightor",
   "description": "A simple Ionic/Angular app for calculating weight when you have mixed standard weights in the gym.",
+  "tags": ["Angular2", "Ionic", "Typescript"],
   "images": {
     "mobile": ["Calcuweightor1", "Calcuweightor2"],
     "desktop": []
@@ -20,7 +22,8 @@
 },
 {
   "name": "Stop The Outbreak",
-  "description": "A game for and exhibit in the Moorehead Planetarium, it is a simulation style game intended to educate public about the difficulty of squelching Malaria outbreaks.",
+  "description": "A game for an exhibit in the Moorehead Planetarium, it is a simulation style game intended to educate public about the difficulty of squelching Malaria outbreaks.",
+  "tags": ["Node", "Typescript", "Websockets", "Gaming", "SQLite"],
   "images": {
     "mobile": [],
     "desktop": []
