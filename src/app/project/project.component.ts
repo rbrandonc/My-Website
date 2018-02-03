@@ -4,6 +4,7 @@ import { Component, Input } from '@angular/core';
 @Component({
   selector: 'project',
   templateUrl: './project.component.html',
+  styleUrls: ['./project.component.scss']
 })
 
 export class Project {
@@ -17,4 +18,8 @@ export class Project {
   bgcolor : Function = () => {
     return this.color;
   };
+
+  bgimage = () => {
+    return this.sanitizer.bypassSecurityTrustStyle('url("../assets/Project Images/' + this.project.name + '.png")');
+  }
 }

@@ -30,11 +30,14 @@
   <!-- Image -->
   <div class='tile is-parent'>
     <div class='tile is-child image'>
-      <img class='mobile-project-image' src='../assets/Project Images/{{project.name}}.png' alt='no project image yet :('/>
+      <div class='image-outer' [style.backgroundImage]="bgimage()">
+      </div>
+      <img class='mobile-project-image' src='../assets/Project Images/{{project.name}}.png' alt='no project image yet :('>
     </div>
+  </div>
 </div>
 
-<!-- Project Image -->
+  <!-- Project Image -->
   <!-- <div class='column round-top-left round-bottom-left' [style.backgroundColor] = "'' + bgcolor()">
     
 
