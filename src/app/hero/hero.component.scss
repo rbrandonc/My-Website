@@ -16,14 +16,14 @@ canvas {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	filter: saturate(180%);
 	// top: 0;
 	// z-index: 10;
 }
 
 #name, #desc, #links {
 	transition: position 2s;
-	filter: saturate(180%);
-	text-shadow: 2px 2px 3px rgba(255,255,255,0.5);
+	text-shadow: 2px 2px 3px rgba(255,255,255,0.3);
 	text-align: center;
 	font-weight: bolder;
 	color: transparent;
@@ -59,13 +59,12 @@ canvas {
 	text-shadow: 0px 2px 4px #151612;
 }
 
-
-
 #name, .stick-nav, #desc, #links, hr {
 	transition: all 1s;
 }
 
 #nav-wrap {
+	filter: saturate(180%);
 	transition: 1s background-color 1s, 1s box-shadow 1s;
 	box-shadow: 0px -3px 10px transparent;
 	background-color: transparent;
