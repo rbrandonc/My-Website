@@ -1,9 +1,17 @@
 [{
   "name": "GymNOW",
-  "description": "I wrote this on a team of people while working at Quantworks inc. I wrote large pieces of the frontend cross platform app, as well as the restful backend api and database schema. It gives the user access to a network of athletic facilities that offer short term passes for the equipment, classes, and amenities that they offer.",
+  "description": "A full stack project produced while working at Quantworks inc. I wrote large pieces of the frontend cross platform app, as well as the restful backend api and database schema. It gives the user access to a network of athletic facilities that offer short term passes for the equipment, classes, and amenities that they offer.",
   "tags": ["Angular", "Ionic", "Typescript", "Java", "Jersey", "PostgreSQL", "Full Stack"],
   "play": "https://play.google.com/store/apps/details?id=com.gymnowapp.gymnowapp&hl=en",
   "apple": "https://itunes.apple.com/us/app/gymnow/id1181595309?mt=8"
+},
+
+{
+  "name": "Malware Map",
+  "description": "This is an experiment in full stack development. It includes a front end for visualization of geolocated malware origins, a back end to provide malware information, unit and integration tests, and Travis CI and Heroku integration.",
+  "tags": ["Heroku", "Travis CI", "Karma", "Jasmine", "Node.js", "Angular", "Typescript", "Full Stack"],
+  "source": "https://github.com/rbrandonc/Malware-Visualization",
+  "demo": "https://http://malware-visualization.herokuapp.com"
 },
 
 {
