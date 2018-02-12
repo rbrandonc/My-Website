@@ -1,6 +1,6 @@
 canvas {
 	width: 100vw;
-	height: 95vh;
+	height: 100vh;
 	position: absolute;
 	z-index: 100;
 }
@@ -21,12 +21,12 @@ canvas {
 	// z-index: 10;
 }
 
-#name, #desc, #links {
+#name, #desc, #links, #arrow {
 	transition: position 2s;
 	text-shadow: 2px 2px 3px rgba(255,255,255,0.3);
 	text-align: center;
 	font-weight: bolder;
-	color: transparent;
+	color: transparent !important;
 	-webkit-background-clip: text;
 	background-clip: text;
 	background-image: url('../../assets/background.png');
@@ -47,16 +47,14 @@ canvas {
 }
 
 #arrow {
-	margin-top: auto;
+	position: absolute;
+	bottom: 0;
+	z-index: 200;
 	width: 100vw;
-	height: 5vh;
-	font-size: 2vw;
+	// height: 5vh;
+	font-size: 6vh;
 	text-align: center;
-	background-color: #444;
-	text-align: center;
-	text-transform: uppercase;
-	color: #c7c9c1;
-	text-shadow: 0px 2px 4px #151612;
+	font-family: "Helvetica" bold;
 }
 
 #name, .stick-nav, #desc, #links, hr {
@@ -75,6 +73,10 @@ canvas {
 	padding-left: 15px;
 	padding-right: 15px;
 	text-align: center;
+
+	a {
+		color: transparent;
+	}
 
 	hr {
 		width: 60%;
@@ -150,6 +152,20 @@ canvas {
 		span {
 			padding-left: 20px;
 			padding-right: 20px;
+		}
+	}
+}
+
+@media (max-width: 750px) {
+	.fix-nav {
+		height: 4vh !important;
+
+		#name, #links {
+			font-size: 3vh !important;
+		}
+
+		#name {
+			transform: translate(-30%);
 		}
 	}
 }

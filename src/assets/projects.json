@@ -1,32 +1,44 @@
 [{
   "name": "GymNOW",
-  "description": "An app I helped develop during the summer of 2017. It lets users search for gyms that offer single day passes, and a variety of other offers.",
-  "tags": ["Angular2", "Ionic", "Typescript", "Java", "Jersey", "PostgreSQL"],
-  "images": {
-    "mobile": ["GymNOW1", "GymNOW2"],
-    "desktop": []
-  },
+  "description": "A full stack project produced while working at Quantworks inc. I wrote large pieces of the frontend cross platform app, as well as the restful backend api and database schema. It gives the user access to a network of athletic facilities that offer short term passes for the equipment, classes, and amenities that they offer.",
+  "tags": ["Angular", "Ionic", "Typescript", "Java", "Jersey", "PostgreSQL", "Full Stack"],
   "play": "https://play.google.com/store/apps/details?id=com.gymnowapp.gymnowapp&hl=en",
   "apple": "https://itunes.apple.com/us/app/gymnow/id1181595309?mt=8"
 },
+
+{
+  "name": "Malware Map",
+  "description": "This is an experiment in full stack development. It includes a front end for visualization of geolocated malware origins, a back end to provide malware information, unit and integration tests, and Travis CI and Heroku integration.",
+  "tags": ["Heroku", "Travis CI", "Karma", "Jasmine", "Node.js", "Angular", "Typescript", "Full Stack"],
+  "source": "https://github.com/rbrandonc/Malware-Visualization",
+  "demo": "https://http://malware-visualization.herokuapp.com"
+},
+
 {
   "name": "Calcuweightor",
-  "description": "A simple Ionic/Angular app for calculating weight when you have mixed standard weights in the gym.",
-  "tags": ["Angular2", "Ionic", "Typescript"],
-  "images": {
-    "mobile": ["Calcuweightor1", "Calcuweightor2"],
-    "desktop": []
-  },
+  "description": "An Ionic/Angular app for quickly calculating total weight when you have mixed standard weights in the gym.",
+  "tags": ["Angular", "Ionic", "Typescript", "Cross Platform"],
   "source": "https://github.com/rbrandonc/calcuweightor",
   "play": "https://play.google.com/store/apps/details?id=io.bcsoft.calcuweightor&hl=en"
 },
+
+{
+  "name": "Pulse Messenger",
+  "description": "An experiment in design, this messenger concept app was created with NW.js and Angular. It is a full functioning front end.",
+  "tags": ["Angular", "NW.js", "Typescript", "Cross Platform", "Responsive Design"],
+  "source": "https://github.com/rbrandonc/pulse-messenger"
+},
+
 {
   "name": "Stop The Outbreak",
-  "description": "A game for an exhibit in the Moorehead Planetarium, it is a simulation style game intended to educate public about the difficulty of squelching Malaria outbreaks.",
+  "description": "A game for an exhibit in the Morehead Planetarium, it is a simulation style game intended to educate public about the difficulty of squelching Malaria outbreaks.",
   "tags": ["Node", "Typescript", "Websockets", "Gaming", "SQLite"],
-  "images": {
-    "mobile": [],
-    "desktop": []
-  },
   "source": "https://github.com/rbrandonc/COMP550-STO"
+},
+
+{
+  "name": "My Website",
+  "description": "An angular based portfolio website to display my work to anyone interested enough to look at it.",
+  "tags": ["Angular", "Typescript", "Responsive Design"],
+  "source": "https://github.com/rbrandonc/My-Website"
 }]

@@ -1,21 +1,82 @@
-.image-outer {
+@media(max-width: 768px) {
+	.image-outer{
+		width: 100%;
+		height: 100%;
+		background-position: center;
+		background-size: 150%;
+		filter: blur(7px);
+		position: absolute;
+		transform: scale(1.05);
+		margin-left: 0px !important;
+	    margin-top: 25px;
+	}
+
+	.is-parent {
+		padding-bottom: 0px;
+	}
+
+	#image-container .tile {
+		overflow: hidden;
+		border-top-right-radius: 0px !important;
+		border-bottom-right-radius: 5px;
+		border-bottom-left-radius: 5px;
+	}
+}
+
+.image-outer{
 	width: 100%;
 	height: 100%;
 	background-position: center;
-	background-size: 150%;
-	filter: blur(5px);
+	// background-size: 125%;
+	filter: blur(10px);
 	position: absolute;
+	transform: scale(1.05);
+    margin-left: 40px;
+    background-attachment: fixed;
 }
 
-.mobile-project-image {
-	padding: 40px;
-	position: relative;
-}
 
-.image {
+
+// .mobile-project-image {
+// 	// padding: 40px;
+// 	// padding: 40px;
+// 	position: relative;
+// 	// height: 80%;
+// 	// max-height: 80vh;
+// 	// height: calc(100% - 40px);
+// 	// width: auto;
+// }
+
+.level {
+	height: 100%;
+	overflow: hidden;
 }
 
 .tile.is-ancestor {
-	overflow: hidden;
-	padding: 3px;
+	// overflow: hidden;
+	// padding: 3px;
+	max-height: 60vh;
+	// max-height: 80vh;	
 }
+
+.project-image {
+	padding: 40px;
+	width: auto;
+	max-height: 60vh;
+	position: relative;
+}
+
+#image-container .tile {
+	overflow: hidden;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.image-wrap {
+	width:100%;
+	text-align: center;
+}
+
+// .column {
+
+// }
