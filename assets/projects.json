@@ -7,6 +7,12 @@
 },
 
 {
+  "name": "TRU Delivery",
+  "description": "A crossplatform delivery application for TRU Deli's bike delivery service. I built this app to interact with an already in place API to replace an outdated system. It allows customers to place to-go orders, in house orders, and delivery orders for custom sandwhiches and salads.",
+  "tags": ["Angular", "Ionic", "Maps", "Typescript", "PostgreSQL", "Full Stack"]
+},
+
+{
   "name": "Malware Map",
   "description": "This is an experiment in full stack development. It includes a front end for visualization of geolocated malware origins, a back end to provide malware information, unit and integration tests, and Travis CI and Heroku integration.",
   "tags": ["Heroku", "Travis CI", "Karma", "Jasmine", "Node.js", "Angular", "Typescript", "Full Stack"],
